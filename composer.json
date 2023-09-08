@@ -1,0 +1,33 @@
+{
+    "name": "retroachievements/api",
+    "description": "RetroAchievements Web API Client",
+    "type": "library",
+    "keywords": [
+        "RetroAchievmenets",
+        "retro",
+        "achievements",
+        "API"
+    ],
+    "homepage": "https://github.com/retroachievements/api-php",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "RetroAchievements\\Api\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "scripts": {}
+}
